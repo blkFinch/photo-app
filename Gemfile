@@ -37,6 +37,11 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'haml-rails'
 
+gem 'devise'
+gem 'devise-bootstrap-views', '~>0.0.11'
+gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+gem 'jquery-rails'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
